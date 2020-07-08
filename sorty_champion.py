@@ -91,7 +91,7 @@ def main():
                 main()
 
     print(t)
-    print("Foram processados " + str(x) + " vezes ate chegar neste resultado")
+    print("Foi processado " + str(x) + " vez(es) ate chegar neste resultado")
     exit()
 
 if __name__ == "__main__":
