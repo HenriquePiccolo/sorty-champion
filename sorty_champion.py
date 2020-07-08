@@ -48,7 +48,10 @@ def main():
         qtd_semanas = 10
         
     ## Determina quantas semanas anteriores a verificar se a pessoa foi/nao champion/buddy
-    qtd_semanas_ver = 1
+    if len(sys.argv) > 2:
+        qtd_semanas_ver = int(sys.argv[2])
+    else:
+        qtd_semanas_ver = 1
     semana = 0
     
     champion_semana = [0] * qtd_semanas
